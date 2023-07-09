@@ -25,7 +25,8 @@ replay_pid*
 public class MyButton implements ActionListener {
 /*объявляется ссылка на объект типа JLabel. Она будет использована в методе actionPerformed () для отображения сведений о том, какая именно кнопка была нажата*/
 JLabel jlab;
-JTextField jtf;
+
+JTextField jtf; 
 /*Конструктор класса начинается с создания контейнера jfrm типа JFrame. Затем в качестве мене-джера компоновки для панели содержимого контейнера jfrm устанавливается FlowLayout, как по-казано ниже*/
 MyButton (){
 JFrame jfrm = new JFrame("Test Applet"); //cоздать новый контейнер
